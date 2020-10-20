@@ -1,0 +1,39 @@
+[submodule "manager"]
+	path = manager
+	url = http://github.com/bluebird1999/webcam-manager.git
+[submodule "tools"]
+	path = tools
+	url = http://github.com/bluebird1999/webcam-tools.git
+[submodule "server/video"]
+	path = server/video
+	url = http://github.com/bluebird1999/webcam-server-video.git
+[submodule "server/audio"]
+	path = server/audio
+	url = http://github.com/bluebird1999/webcam-server-audio.git
+[submodule "server/device"]
+	path = server/device
+	url = http://github.com/bluebird1999/webcam-server-device.git
+[submodule "server/kernel"]
+	path = server/kernel
+	url = http://github.com/bluebird1999/webcam-server-kernel.git
+[submodule "server/miio"]
+	path = server/miio
+	url = http://github.com/bluebird1999/webcam-server-miio.git
+[submodule "server/miss"]
+	path = server/miss
+	url = http://github.com/bluebird1999/webcam-server-miss.git
+[submodule "server/speaker"]
+	path = server/speaker
+	url = http://github.com/bluebird1999/webcam-server-speaker.git
+[submodule "server/player"]
+	path = server/player
+	url = http://github.com/bluebird1999/webcam-server-player.git
+[submodule "server/recorder"]
+	path = server/recorder
+	url = http://github.com/bluebird1999/webcam-server-recorder.git
+[submodule "server/realtek"]
+	path = server/realtek
+	url = http://github.com/bluebird1999/webcam-server-realtek.git
+[submodule "server/micloud"]
+	path = server/micloud
+	url = http://github.com/bluebird1999/webcam-server-micloud.git
