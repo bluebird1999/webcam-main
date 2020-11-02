@@ -21,6 +21,7 @@ server/miss \
 server/player \
 server/realtek \
 server/recorder \
+server/scanner \
 server/speaker \
 server/video \
 server/video2 \
