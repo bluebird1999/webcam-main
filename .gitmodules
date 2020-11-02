@@ -39,7 +39,7 @@
 	url = http://github.com/bluebird1999/webcam-server-micloud.git
 [submodule "server/video2"]
 	path = server/video2
-	url = http://github.com/bluebird1999/webcam-server-video2
-[submodule "webcam-server-scanner"]
-	path = webcam-server-scanner
-	url = http://github.com/bluebird1999/webcam-server-scanner
+	url = http://github.com/bluebird1999/webcam-server-video2.git
+[submodule "server/scanner"]
+	path = server/scanner
+	url = http://github.com/bluebird1999/webcam-server-scanner.git
