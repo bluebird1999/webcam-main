@@ -13,6 +13,7 @@ RM := rm -rf
 -include tools/cJSON/subdir.mk
 -include tools/buffer/subdir.mk
 -include tools/subdir.mk
+-include server/video2/subdir.mk
 -include server/video/subdir.mk
 -include server/speaker/subdir.mk
 -include server/recorder/subdir.mk

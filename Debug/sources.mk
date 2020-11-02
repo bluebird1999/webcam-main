@@ -23,6 +23,7 @@ server/realtek \
 server/recorder \
 server/speaker \
 server/video \
+server/video2 \
 tools/buffer \
 tools/cJSON \
 tools/config \
