@@ -32,9 +32,8 @@
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1532012206" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/cJSON/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/zbar/include"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/dmalloc/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mp4v2/include"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/freetype2/include"/>
+									<listOptionValue builtIn="false" value="/home/ning/library-mips/freetype/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mi/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/realtek/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/json-c/include"/>
@@ -71,15 +70,13 @@
 									<listOptionValue builtIn="false" value="json-c"/>
 									<listOptionValue builtIn="false" value="miss"/>
 									<listOptionValue builtIn="false" value="sodium"/>
-									<listOptionValue builtIn="false" value="dmallocth"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.paths.480520924" name="Library search path (-L)" superClass="gnu.c.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/cJSON/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/zbar/lib"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/dmalloc/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mp4v2/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/sodium/lib"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/freetype2/lib"/>
+									<listOptionValue builtIn="false" value="/home/ning/library-mips/freetype/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/json-c/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mi/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/realtek/lib"/>
