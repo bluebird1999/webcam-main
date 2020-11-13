@@ -16,6 +16,7 @@ SUBDIRS := \
 manager \
 server/audio \
 server/device \
+server/kernel \
 server/miio \
 server/miss \
 server/player \
