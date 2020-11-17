@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../server/device/audio_control.c \
+../server/device/config.c \
 ../server/device/device.c \
 ../server/device/gpio_control.c \
 ../server/device/motor_control.c \
@@ -13,6 +14,7 @@ C_SRCS += \
 
 OBJS += \
 ./server/device/audio_control.o \
+./server/device/config.o \
 ./server/device/device.o \
 ./server/device/gpio_control.o \
 ./server/device/motor_control.o \
@@ -21,6 +23,7 @@ OBJS += \
 
 C_DEPS += \
 ./server/device/audio_control.d \
+./server/device/config.d \
 ./server/device/device.d \
 ./server/device/gpio_control.d \
 ./server/device/motor_control.d \
