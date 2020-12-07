@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include tools/memory/subdir.mk
 -include tools/json/subdir.mk
 -include tools/config/subdir.mk
 -include tools/cJSON/subdir.mk
@@ -46,7 +47,7 @@ all: webcam
 webcam: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross GCC Linker'
-	mips-linux-uclibc-gcc -L/home/ning/library-mips/cJSON/lib -L/home/ning/library-mips/zbar/lib -L/home/ning/library-mips/mp4v2/lib -L/home/ning/library-mips/sodium/lib -L/home/ning/library-mips/freetype/lib -L/home/ning/library-mips/json-c/lib -L/home/ning/library-mips/mi/lib -L/home/ning/library-mips/realtek/lib -o "webcam" $(OBJS) $(USER_OBJS) $(LIBS)
+	mips-linux-uclibc-gcc -L/home/ning/library-mips/cJSON/lib -L/home/ning/library-mips/jemalloc/lib -L/home/ning/library-mips/zbar/lib -L/home/ning/library-mips/mp4v2/lib -L/home/ning/library-mips/sodium/lib -L/home/ning/library-mips/freetype/lib -L/home/ning/library-mips/json-c/lib -L/home/ning/library-mips/mi/lib -L/home/ning/library-mips/realtek/lib -o "webcam" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

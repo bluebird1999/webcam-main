@@ -31,4 +31,5 @@ tools/cJSON \
 tools/config \
 tools \
 tools/json \
+tools/memory \
 
