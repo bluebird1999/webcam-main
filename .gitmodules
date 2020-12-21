@@ -36,7 +36,7 @@
 	url = http://github.com/bluebird1999/webcam-server-realtek.git
 [submodule "server/micloud"]
 	path = server/micloud
-	url = http://github.com/bluebird1999/webcam-server-micloud.git
+	url = https://github.com/bluebird1999/webcam-server-micloud.git
 [submodule "server/video2"]
 	path = server/video2
 	url = http://github.com/bluebird1999/webcam-server-video2.git

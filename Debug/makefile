@@ -23,6 +23,7 @@ RM := rm -rf
 -include server/player/subdir.mk
 -include server/miss/subdir.mk
 -include server/miio/subdir.mk
+-include server/micloud/subdir.mk
 -include server/kernel/subdir.mk
 -include server/device/subdir.mk
 -include server/audio/subdir.mk

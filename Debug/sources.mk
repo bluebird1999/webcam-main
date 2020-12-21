@@ -17,6 +17,7 @@ manager \
 server/audio \
 server/device \
 server/kernel \
+server/micloud \
 server/miio \
 server/miss \
 server/player \
