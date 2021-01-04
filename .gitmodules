@@ -43,3 +43,6 @@
 [submodule "server/scanner"]
 	path = server/scanner
 	url = http://github.com/bluebird1999/webcam-server-scanner.git
+[submodule "server/video3"]
+	path = server/video3
+	url = https://github.com/bluebird1999/webcam-server-video3.git

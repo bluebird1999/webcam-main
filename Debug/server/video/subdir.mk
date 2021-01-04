@@ -11,7 +11,6 @@ C_SRCS += \
 ../server/video/jpeg.c \
 ../server/video/md.c \
 ../server/video/osd.c \
-../server/video/spd.c \
 ../server/video/video.c \
 ../server/video/white_balance.c 
 
@@ -23,7 +22,6 @@ OBJS += \
 ./server/video/jpeg.o \
 ./server/video/md.o \
 ./server/video/osd.o \
-./server/video/spd.o \
 ./server/video/video.o \
 ./server/video/white_balance.o 
 
@@ -35,7 +33,6 @@ C_DEPS += \
 ./server/video/jpeg.d \
 ./server/video/md.d \
 ./server/video/osd.d \
-./server/video/spd.d \
 ./server/video/video.d \
 ./server/video/white_balance.d 
 
@@ -44,7 +41,7 @@ C_DEPS += \
 server/video/%.o: ../server/video/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross GCC Compiler'
-	mips-linux-uclibc-gcc -DVIDEO -DAUDIO -I/home/ning/library-mips/cJSON/include -I/home/ning/library-mips/rtsxmd/include -I/home/ning/library-mips/libjpeg/include -I/home/ning/library-mips/jemalloc/include -I/home/ning/library-mips/zbar/include -I/home/ning/library-mips/mp4v2/include -I/home/ning/library-mips/freetype/include -I/home/ning/library-mips/mi/include -I/home/ning/library-mips/realtek/include -I/home/ning/library-mips/json-c/include -O0 -g3 -Wall -c -Wl,-Map,gcc.map -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	mips-linux-uclibc-gcc -DVIDEO -DDMALLOC -DAUDIO -I/home/ning/library-mips/cJSON/include -I/home/ning/library-mips/dmalloc/include -I/home/ning/library-mips/rtsxmd/include -I/home/ning/library-mips/libjpeg/include -I/home/ning/library-mips/jemalloc/include -I/home/ning/library-mips/zbar/include -I/home/ning/library-mips/mp4v2/include -I/home/ning/library-mips/freetype/include -I/home/ning/library-mips/mi/include -I/home/ning/library-mips/realtek/include -I/home/ning/library-mips/json-c/include -O0 -g3 -Wall -c -Wl,-Map,/home/ning/gcc.map -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

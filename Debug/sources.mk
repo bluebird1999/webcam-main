@@ -27,6 +27,7 @@ server/scanner \
 server/speaker \
 server/video \
 server/video2 \
+server/video3 \
 tools/buffer \
 tools/cJSON \
 tools/config \
