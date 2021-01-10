@@ -33,8 +33,6 @@
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/cJSON/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/dmalloc/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/rtsxmd/include"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/libjpeg/include"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/jemalloc/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/zbar/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mp4v2/include"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/freetype/include"/>
@@ -50,6 +48,7 @@
 								<option id="gnu.c.compiler.option.debugging.sanitthread.1673850000" name="Sanitize data race in multi-thread (-fsanitize=thread)" superClass="gnu.c.compiler.option.debugging.sanitthread" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.debugging.sanitundef.404153525" name="Sanitize undefined behavior (-fsanitize=undefined)" superClass="gnu.c.compiler.option.debugging.sanitundef" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.misc.verbose.1758578935" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.pic.1497730677" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1884811024" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.577070219" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler">
@@ -61,7 +60,6 @@
 									<listOptionValue builtIn="false" value="pthread"/>
 									<listOptionValue builtIn="false" value="dmallocth"/>
 									<listOptionValue builtIn="false" value="rtsxmd"/>
-									<listOptionValue builtIn="false" value="jpeg"/>
 									<listOptionValue builtIn="false" value="mi_ipc"/>
 									<listOptionValue builtIn="false" value="rtsio"/>
 									<listOptionValue builtIn="false" value="curl"/>
@@ -83,8 +81,6 @@
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/cJSON/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/dmalloc/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/rtsxmd/lib"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/libjpeg/lib"/>
-									<listOptionValue builtIn="false" value="/home/ning/library-mips/jemalloc/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/zbar/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/mp4v2/lib"/>
 									<listOptionValue builtIn="false" value="/home/ning/library-mips/sodium/lib"/>
