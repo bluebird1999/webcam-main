@@ -17,7 +17,6 @@ RM := rm -rf
 -include server/video3/subdir.mk
 -include server/video2/subdir.mk
 -include server/video/subdir.mk
--include server/speaker/subdir.mk
 -include server/scanner/subdir.mk
 -include server/recorder/subdir.mk
 -include server/realtek/subdir.mk

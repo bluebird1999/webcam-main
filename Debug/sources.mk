@@ -24,7 +24,6 @@ server/player \
 server/realtek \
 server/recorder \
 server/scanner \
-server/speaker \
 server/video \
 server/video2 \
 server/video3 \

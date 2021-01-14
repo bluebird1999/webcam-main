@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../server/audio/audio.c \
-../server/audio/config.c 
+../server/audio/config.c \
+../server/audio/play_audio.c 
 
 OBJS += \
 ./server/audio/audio.o \
-./server/audio/config.o 
+./server/audio/config.o \
+./server/audio/play_audio.o 
 
 C_DEPS += \
 ./server/audio/audio.d \
-./server/audio/config.d 
+./server/audio/config.d \
+./server/audio/play_audio.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
